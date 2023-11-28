@@ -116,13 +116,14 @@ main {
 .world-map {
   width: 80%;
   border-radius: 15px;
-  margin: auto;
+  margin: 10px auto;
+  text-align: center;
 }
 
 .title {
   font-size: larger;
   font-style: italic;
-  color: gray;
+  color: dodgerblue;
   margin-top: 20px;
   text-align: center;
 }
