@@ -2,7 +2,7 @@
 
 ![screenshot](./public/assets/images/webpage/Memoria%20The%20Protectors%20-%20Logo%20no%20background.png)
 
-Memoria the Protectors is a brand-new Table Top Role Playing Game or TTRPG for short. This page will allow users to sign up, log in, and have access the content and features listed below:
+### Memoria the Protectors is a brand-new Table Top Role Playing Game or TTRPG for short. This page will allow users to sign up, log in, and have access to the content and features listed below:
 
 - Pictures of the Unique Races
 - Maps and Demographics for the Continents and Kingdoms
@@ -28,7 +28,7 @@ Memoria the Protectors is a brand-new Table Top Role Playing Game or TTRPG for s
 
 ## Table of Contents
 
-1.  [Screenshot](#screenshot)
+1.  [Screenshots](#screenshot)
 2.  [Installation](#install)
 3.  [Technologies](#tech)
 4.  [Usage](#usage)
@@ -40,9 +40,10 @@ Memoria the Protectors is a brand-new Table Top Role Playing Game or TTRPG for s
 
 <p id="screenshot"></p>
 
-## Screenshot
+## Screenshots
 
-[screenshot](./public/assets/images/webpage/Placeholder%20Image.png)
+![screenshot](./public/assets/images/webpage/Placeholder%20Image.png)
+![screenshot](./public/assets/images/webpage/Placeholder%20Image.png)
 
 ---
 
@@ -85,8 +86,38 @@ Font Awesome
 
 ---
 
-<p id="tech"></p>
+<p id="usage"></p>
 
 ## Usage
 
+Usage details here
+
 ---
+
+<p id="roadmap"></p>
+
+## Roadmap
+
+Future development ideas here
+
+---
+
+<p id="contribute"></p>
+
+## Contributions
+
+List contributions instructions here
+
+---
+
+<p id="contact"></p>
+
+## Contact Us
+
+[Ryan Fann]()
+
+[Luis Flores]()
+
+[Kathryn Perry]()
+
+[Noah Lara]()
