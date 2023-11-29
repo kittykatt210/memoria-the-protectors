@@ -43,11 +43,16 @@ Race.init(
             type: DataTypes.STRING,
             allowNull: false,
         },
+        image: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        }
     },
-    {sequelize,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'race',
+    {
+        sequelize,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'race',
     }
 );
 
