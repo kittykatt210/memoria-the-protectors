@@ -24,7 +24,7 @@ FocusPower.init(
         },
         description: {
             type: DataTypes.STRING,
-            allowNull,
+            allowNull: false, //TODO check this to see if false is correct i just filled in to make work
         },
     },
     {
