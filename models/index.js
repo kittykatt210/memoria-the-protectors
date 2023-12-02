@@ -1,4 +1,4 @@
-// const User = require('./User');
+ const User = require('./User');
 // const Race = require('./Race');
 // const FocusPower = require('./FocusPower');
 // const Focus = require('./Focus');
@@ -11,4 +11,4 @@
 //     foreignKey: 'focus_id'
 // });
 
-// module.exports = { User, Race, Focus, FocusPower };
+ module.exports = { User}//, Race, Focus, FocusPower };
