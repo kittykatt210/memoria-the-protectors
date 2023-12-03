@@ -7,9 +7,11 @@ const loginFormHandler = async (event) => {
   const password = document.querySelector("#password-signup").value.trim();
 
   if (name && email && password) {
-    const data = { name: name, email: email, password: password };
-    console.log(data);
-
+    const data = {
+      name: name,
+      email: email,
+      password: password,
+    };
     try {
       const response = await fetch("/api/users", {
         method: "POST",
@@ -20,7 +22,7 @@ const loginFormHandler = async (event) => {
       const responseData = await response.json();
 
       if (response.ok) {
-        document.location.replace("/login");
+        document.location.replace("/");
         alert("success");
       } else {
         alert(

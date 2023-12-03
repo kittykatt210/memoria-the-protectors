@@ -37,6 +37,7 @@ router.post("/logout", (req, res) => {
   if (req.session.logged_in) {
     //destroys session info (cookies)
     req.session.destroy(() => {
+      req.session = null;
       res.status(204).end();
     });
   } else {
@@ -53,6 +54,7 @@ router.post("/", async (req, res) => {
       username: req.body.name,
       email: req.body.email,
       password: req.body.password,
+      logged_in: (req.session.logged_in = true),
     });
 
     // res.status(200).json(userData).redirect("/login");
